@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    box-shadow: 0px 0px 900px rgb(9, 0, 0) inset;
+    background-image: url("./netflix\ 1\ image.webp");
+    display: block;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.parent .d1{
+    border: 2px solid black;
+    height: 500px;
+    width: 430px;
+    background-color: rgba(0, 0, 0, 0.387);
+    border: none;
+    position: relative;
+    display: block;
+    border-radius: 23px;
+}
+.d2{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 33px;
+    left: 45px;
+}
+.d3{
+    border: 2px solid #1e2c2e4f ;
+    height: 35px;
+    width: 70%;
+    display: block;
+    position: absolute;
+    top: 115px;
+    left: 45px;
+    padding-left: 15px;
+    background-color:#1e2c2e;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    }
+.d4{
+    
+    display: block;
+     border: 2px solid #1e2c2e;
+    height: 36px;
+    width: 70%;
+    position: absolute;
+    top: 175px;
+    left: 45px;
+    padding-left: 16px;
+    background-color: #1e2c2ee5;
+color: white;
+    border-radius: 16px;
+    border: none;
+    
+}
+button{
+    border: none;
+    height: 35px;
+    width: 74%;
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 45px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 16px;
+
+}
+@media all and (max-width:330px){
+    .d6{
+        position: absolute;
+        bottom: 187px;
+        left: 63px;
+        color: rgba(255, 255, 255, 0.758);
+        top: 290px;
+    }
+    .d7{
+        position: absolute;
+        bottom: 180px;
+        left: 45px;
+        color:  rgba(255, 255, 255, 0.74);
+        font-family: sans-serif;
+    }
+    .d9{
+        position: absolute;
+        bottom: 180px;
+        left: 155px;
+        color: white; 
+    }
+    .d8{
+        position: absolute;
+        bottom: 50px;
+        left: 45px;
+        color:  rgba(255, 255, 255, 0.74);
+        font-size:28px;
+        /* line-height: 20px; */
+        top: 410px;
+    }
+    .d10{
+        position: absolute;
+        bottom: 50px;
+        /* right : px; */
+        color:  blue;
+        font-size: medium;
+        left: 50px;
+        top: 455px;
+    }
+}
+
+.d5{
+    position: absolute;
+    bottom: 190px;
+    left: 45px;
+    outline: white;
+    /* top: 40px; */
+}
+.d6{
+    position: absolute;
+    bottom: 187px;
+    left: 63px;
+    color: rgba(255, 255, 255, 0.758);
+    
+}
+.d7{
+    position: absolute;
+    bottom: 100px;
+    left: 45px;
+    color:  rgba(255, 255, 255, 0.74);
+    font-family: sans-serif;
+}
+.d9{
+    position: absolute;
+    bottom: 100px;
+    left: 155px;
+    color: white; 
+}
+.d8{
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+    color:  rgba(255, 255, 255, 0.74);
+    font-size: medium;
+}
+.d10{
+    position: absolute;
+    bottom: 50px;
+    /* right : 157px; */
+    color:  blue;
+    font-size: medium;
+    left: 150px;
+}
+.child{
+    
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 50px;
+    text-shadow: 0px 0px 5px;
+}   
